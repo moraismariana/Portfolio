@@ -1,6 +1,9 @@
 :root {
   --cw: #ffffff;
   --c1: #020106;
+  --c2: rgba(12, 11, 16, 0.83);
+  --c3: #7f7b87;
+  --c4: rgba(255, 255, 255, 0.65);
 }
 
 /* cor de texto */
@@ -9,8 +12,15 @@
   color: var(--cw);
 }
 
+.c3 {
+  color: var(--c3);
+}
+
 /* cor de background */
 
 .bg-c1 {
   background-color: var(--c1);
+}
+.bg-c2 {
+  background-color: var(--c2);
 }

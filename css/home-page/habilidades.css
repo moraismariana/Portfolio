@@ -1,0 +1,115 @@
+.habilidades > p {
+  margin-bottom: 48px;
+}
+
+.habilidades .hab-lista {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidades-item {
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidades-item .icone {
+  margin: inherit;
+  max-width: 40px;
+}
+
+.hab-lista li:nth-child(even) {
+  .habilidades-item .icone {
+    max-width: 44px;
+  }
+}
+
+.habilidades-item p {
+  max-width: 20ch;
+}
+
+.habilidades button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.hab-descricao {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  text-align: center;
+  max-width: max-content;
+}
+
+.hab-descricao {
+  margin-bottom: 64px;
+}
+
+.hab-descricao-item {
+  padding: 20px 12px 16px 12px;
+  width: 84px;
+}
+
+.hab-descricao-item img {
+  max-width: 72px;
+  max-height: 72px;
+  margin-bottom: 20px;
+}
+
+.hab-descricao-2 .texto {
+  max-width: 50ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hab-descricao-2 .mouse {
+  padding-bottom: 48px;
+}
+.hab-descricao-2 .texto4 {
+  padding-bottom: 24px;
+}
+
+.habilidades.separador::after {
+  margin-top: 80px;
+}
+
+/* hover */
+.hab-descricao-item:hover {
+  background-color: rgba(12, 11, 16, 0.83);
+}
+
+.hab-descricao-item:hover h4 {
+  color: var(--c4);
+}
+
+.hab-descricao-2 .texto {
+  display: none;
+}
+
+.texto1.ativo,
+.texto2.ativo,
+.texto3.ativo,
+.texto4.ativo,
+.texto5.ativo {
+  display: block;
+}
+
+.desativo {
+  display: none;
+}
+
+.ativo {
+  display: block;
+}
+
+.hab-descricao.margin {
+  margin-bottom: 216px;
+}
