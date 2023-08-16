@@ -1,0 +1,10 @@
+/* geral */
+@import "./geral/geral.css";
+@import "./geral/tipografia.css";
+@import "./geral/cores.css";
+
+/* header e footer */
+@import "./geral/header.css";
+
+/* home page */
+@import "./home-page/intro.css";

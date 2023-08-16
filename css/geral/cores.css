@@ -1,0 +1,16 @@
+:root {
+  --cw: #ffffff;
+  --c1: #020106;
+}
+
+/* cor de texto */
+
+.cw {
+  color: var(--cw);
+}
+
+/* cor de background */
+
+.bg-c1 {
+  background-color: var(--c1);
+}
