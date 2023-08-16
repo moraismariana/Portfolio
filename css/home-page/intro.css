@@ -14,8 +14,6 @@
 }
 
 .intro .seta {
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
 }
 
@@ -24,8 +22,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 84px;
+  margin-bottom: 84px;
   width: 800px;
   height: 2px;
   background-color: var(--cw);

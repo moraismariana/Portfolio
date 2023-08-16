@@ -1,0 +1,11 @@
+.sobre {
+  text-align: center;
+}
+
+.sobre h2 {
+  margin-bottom: 40px;
+}
+
+.sobre p {
+  max-width: 50ch;
+}
