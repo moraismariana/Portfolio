@@ -81,7 +81,7 @@
   margin-top: 80px;
 }
 
-/* hover */
+/* hover das tecnologias*/
 .hab-descricao-item:hover {
   background-color: rgba(12, 11, 16, 0.83);
 }
@@ -112,4 +112,24 @@
 
 .hab-descricao.margin {
   margin-bottom: 216px;
+}
+
+/* apertar botao tecnologias */
+.habilidades .botao::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 7px;
+  background: url("../../img/seta2.svg");
+  transition: 0.3s;
+}
+
+/* .habilidades .botao:hover::after, */
+.botao.inverter::after {
+  transform: rotate(180deg);
+}
+
+.hab-descricao.none,
+.hab-descricao-2.none {
+  display: none;
 }

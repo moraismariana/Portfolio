@@ -1,6 +1,4 @@
-// classe do "botao": hab-descricao-item, item1, item2...
-// classe do texto: texto, texto1, texto2...
-
+// habilidades hover
 const lista = [
   document.querySelector(".item1"),
   document.querySelector(".item2"),
@@ -37,62 +35,16 @@ function a() {
 }
 lista.forEach(a);
 
-// const item1 = document.querySelector(".item1");
-// const item2 = document.querySelector(".item2");
-// const item3 = document.querySelector(".item3");
-// const item4 = document.querySelector(".item4");
-// const item5 = document.querySelector(".item5");
+// tecnologias botao
+const botao = document.querySelector(".tecnologias");
 
-// item1
-// function mostrar1() {
-//   const texto1 = document.querySelector(".texto1");
-//   texto1.classList.add("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.add("desativo");
-// }
+function ativarBotao() {
+  const elementos = document.querySelector(".hab-descricao");
+  elementos.classList.toggle("none");
+  const elementos2 = document.querySelector(".hab-descricao-2");
+  elementos2.classList.toggle("none");
 
-// function remover1() {
-//   const texto1 = document.querySelector(".texto1");
-//   texto1.classList.remove("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.remove("desativo");
-// }
+  botao.classList.toggle("inverter");
+}
 
-// item1.addEventListener("mouseover", mostrar1);
-// item1.addEventListener("mouseout", remover1);
-
-// item2
-// function mostrar2() {
-//   const texto2 = document.querySelector(".texto2");
-//   texto2.classList.add("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.add("desativo");
-// }
-
-// function remover2() {
-//   const texto2 = document.querySelector(".texto2");
-//   texto2.classList.remove("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.remove("desativo");
-// }
-
-// item2.addEventListener("mouseover", mostrar2);
-// item2.addEventListener("mouseout", remover2);
-
-// item1
-// function mostrar1() {
-//   const texto1 = document.querySelector(".texto1");
-//   texto1.classList.add("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.add("desativo");
-// }
-
-// function remover1() {
-//   const texto1 = document.querySelector(".texto1");
-//   texto1.classList.remove("ativo");
-//   const mouse = document.querySelector(".mouse");
-//   mouse.classList.remove("desativo");
-// }
-
-// item1.addEventListener("mouseover", mostrar1);
-// item1.addEventListener("mouseout", remover1);
+botao.addEventListener("click", ativarBotao);
