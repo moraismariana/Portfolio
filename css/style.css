@@ -5,9 +5,11 @@
 
 /* header e footer */
 @import "./geral/header.css";
+@import "./geral/footer.css";
 
 /* home page */
 @import "./home-page/intro.css";
 @import "./home-page/sobre.css";
 @import "./home-page/habilidades.css";
 @import "./home-page/projetos.css";
+@import "./home-page/contato.css";

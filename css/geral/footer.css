@@ -1,0 +1,13 @@
+footer p {
+  padding-bottom: 20px;
+}
+
+footer p::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--cw);
+  opacity: 25%;
+  margin-bottom: 16px;
+}
