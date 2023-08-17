@@ -1,0 +1,10 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_5_8" fill="white">
+<rect width="128" height="128" rx="12"/>
+</mask>
+<rect width="128" height="128" rx="12" stroke="white" stroke-width="30" mask="url(#path-1-inside-1_5_8)"/>
+<circle cx="29" cy="29" r="16" stroke="white" stroke-width="10"/>
+<rect x="14" y="46" width="30" height="68" stroke="white" stroke-width="10"/>
+<path d="M51 46H46V51V109V114H51H71H76V109V72.4935C76.1001 72.1578 76.3474 71.5895 76.8217 71.0983C77.286 70.6175 78.1537 70 80 70C81.8566 70 82.8756 70.6301 83.492 71.2244C84.0282 71.7414 84.3444 72.3233 84.5 72.7087V109V114H89.5H109H114V109V72V71.6607L113.954 71.3244C113.364 66.9939 111.408 60.6348 107.309 55.2292C103.094 49.6689 96.4748 45 87 45C82.9016 45 79.1088 46.1581 76 47.6735V46H71H51Z" stroke="white" stroke-width="10"/>
+<path d="M40.5 13L49.5 25.5L43 41.5L93.5 44.5L115 56V13H40.5Z" fill="white" stroke="white" stroke-width="5"/>
+</svg>

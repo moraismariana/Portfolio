@@ -57,6 +57,7 @@
 .hab-descricao-item {
   padding: 20px 12px 16px 12px;
   width: 84px;
+  transition: 0.3s;
 }
 
 .hab-descricao-item img {
@@ -84,6 +85,7 @@
 /* hover das tecnologias*/
 .hab-descricao-item:hover {
   background-color: rgba(12, 11, 16, 0.83);
+  transition: 0s;
 }
 
 .hab-descricao-item:hover h4 {
@@ -122,6 +124,10 @@
   height: 7px;
   background: url("../../img/seta2.svg");
   transition: 0.3s;
+}
+.habilidades .botao:hover::after {
+  background: url("../../img/seta2b.svg");
+  /* transition: 0s; */
 }
 
 /* .habilidades .botao:hover::after, */
