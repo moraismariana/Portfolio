@@ -9,140 +9,145 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="bg-c1 cw">
-  <header class="container">
-    <a href="./">
-      <img src="./img/logo.svg" alt="Mariana M.">
-    </a>
-    <nav aria-label="primaria">
-      <ul class="header-nav font-11">
-        <li><a href="./">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+<body id="body" class="bg-c1 cw">
+  <div class="wrapper">
+    <div class="background-container">
+      <img class="background" src="./img/background4.svg" alt="">
+      <header class="container">
+        <a href="./">
+          <img src="./img/logo.svg" alt="Mariana M.">
+        </a>
+        <nav aria-label="primaria">
+          <ul class="header-nav font-11">
+            <li><a href="./">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <main class="intro container">
-    <h1 class="font-2">Olá, eu sou<br><span class="font-1">Mariana Morais</span></h1>
-    <h2 class="font-6">Desenvolvedora Front-End</h2>
-    <div class="intro-botoes">
-      <a class="botao" href="#sobre">Saiba mais</a>
-      <a class="botao" href="#contato">Entre em contato</a>
-    </div>
-    <img class="seta centro" src="./img/seta1.svg" alt="seta">
-  </main>
-
-  <section id="sobre" class="sobre container separador">
-    <h2 class="font-3 centro esp1">Sobre mim.</h2>
-    <p class="font-7 centro">Sou estudante de Sistemas de Informação na UFVJM. Em 2023 decidi me profissionalizar na área de Front-End e atualmente desenvolvo sites por meio das linguagens <b>HTML, CSS</b> e <b>JavaScript.</b> Também possuo experiências em design e ilustração.</p>
-  </section>
-
-  <section id="habilidades" class="habilidades container separador">
-    <h2 class="font-3 centro esp1">Habilidades.</h2>
-    <p class="font-7 centro">Abaixo estão algumas das minhas habilidades, linguagens e ferramentas.</p>
-    <ul class="hab-lista">
-      <li>
-        <div class="bg-c2 habilidades-item centro margin">
-          <img class="icone" src="./img/ideia.svg" alt="">
-          <h3 class="font-5">UI/UX Design</h3>
-          <p class="font-9">Desde o rabisco ao design final, busco criar interfaces intuitivas e voltadas para o usuário. Minha principal ferramenta é o Figma.</p>
+      <main class="intro container">
+        <h1 class="font-2">Olá, eu sou<br><span class="font-1">Mariana Morais</span></h1>
+        <h2 class="font-6">Desenvolvedora Front-End</h2>
+        <div class="intro-botoes">
+          <a class="botao" href="#sobre">Saiba mais</a>
+          <a class="botao" href="#contato">Entre em contato</a>
         </div>
-      </li>
-      <li>
-        <div class="bg-c2 habilidades-item centro">
-          <img class="icone" src="./img/codigo.svg" alt="">
-          <h3 class="font-5">Front-End</h3>
-          <p class="font-9">Eu desenvolvo sites através de HTML, CSS e linguagens de programação, como JavaScript e C++.</p>
+        <img class="seta centro" src="./img/seta1.svg" alt="seta">
+      </main>
+
+      <section id="sobre" class="sobre container separador">
+        <h2 class="font-3 centro esp1">Sobre mim.</h2>
+        <p class="font-7 centro">Sou estudante de Sistemas de Informação na UFVJM. Em 2023 decidi me profissionalizar na área de Front-End e atualmente desenvolvo sites por meio das linguagens <b>HTML, CSS</b> e <b>JavaScript.</b> Também possuo experiências em design e ilustração.</p>
+      </section>
+
+      <section id="habilidades" class="habilidades container separador">
+        <h2 class="font-3 centro esp1">Habilidades.</h2>
+        <p class="font-7 centro">Abaixo estão algumas das minhas habilidades, linguagens e ferramentas.</p>
+        <ul class="hab-lista">
+          <li>
+            <div class="bg-c2 habilidades-item centro margin">
+              <img class="icone" src="./img/ideia.svg" alt="">
+              <h3 class="font-5">UI/UX Design</h3>
+              <p class="font-9">Desde o rabisco ao design final, busco criar interfaces intuitivas e voltadas para o usuário. Minha principal ferramenta é o Figma.</p>
+            </div>
+          </li>
+          <li>
+            <div class="bg-c2 habilidades-item centro">
+              <img class="icone" src="./img/codigo.svg" alt="">
+              <h3 class="font-5">Front-End</h3>
+              <p class="font-9">Eu desenvolvo sites através de HTML, CSS e linguagens de programação, como JavaScript e C++.</p>
+            </div>
+          </li>
+          <li>
+            <div class="bg-c2 habilidades-item centro">
+              <img class="icone" src="./img/lapis.svg" alt="">
+              <h3 class="font-5">Ilustração</h3>
+              <p class="font-9">Pratico ilustração digital desde os 16 anos. Essa habilidade foi essencial para que eu desenvolvesse a criatividade e outras soft skills úteis para o Front-End.</p>
+            </div>
+          </li>
+        </ul>
+        <button class="tecnologias botao centro">Entenda as Tecnologias</button>
+
+        <ul class="hab-descricao centro none">
+          <li class="hab-descricao-item item1">
+            <img class="centro" src="./img/html.svg" alt="">
+            <h4 class="font-10 c3">HTML</h4>
+          </li>
+          <li class="hab-descricao-item item2">
+            <img class="centro" src="./img/css.svg" alt="">
+            <h4 class="font-10 c3">CSS</h4>
+          </li>
+          <li class="hab-descricao-item item3">
+            <img class="centro" src="./img/javascript.svg" alt="">
+            <h4 class="font-10 c3">Javascript</h4>
+          </li>
+          <li class="hab-descricao-item item4">
+            <img class="centro" src="./img/c++.svg" alt="">
+            <h4 class="font-10 c3">C++</h4>
+          </li>
+          <li class="hab-descricao-item item5">
+            <img class="centro" src="./img/figma.svg" alt="">
+            <h4 class="font-10 c3">Figma</h4>
+          </li>
+        </ul>
+
+        <ul class="hab-descricao-2 centro none">
+          <li class="font-7 mouse">Passe o mouse por cima dos ícones para ler a descrição.</li>
+          <li>
+            <p class="font-7 texto texto1">HTML é uma linguagem de marcação que permite definir a estrutura básica do site. É através dele, por exemplo, que inserimos textos, imagens e conteúdos.</p>
+          </li>
+          <li>
+            <p class="font-7 texto texto2">CSS é uma linguagem de estilização. Por meio dele que se faz a personalização e padronização do site, de acordo com o design desejado.</p>
+          </li>
+          <li>
+            <p class="font-7 texto texto3">Javascript é uma linguagem de programação de alto nível, voltada para o desenvolvimento web. Ela permite a criação de sistemas complexos e possibilita uma maior interatividade com o usuário.</p>
+          </li>
+          <li>
+            <p class="font-7 texto texto4">C++ é uma linguagem de programação orientada a objeto que também permite a criação de sistemas complexos.</p>
+          </li>
+          <li>
+            <p class="font-7 texto texto5">O Figma é um software de criação gráfica voltado para o desenvolvimento de sites e aplicativos. Através dele é possível visualizar como ficaria o site final, em relação ao design final.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projetos" class="projetos container separador">
+        <h2 class="font-3 centro esp1">Projetos.</h2>
+        <div class="projetos-bikcraft">
+          <div class="projetos-bikcraft-texto">
+            <h3 class="font-4">Bikcraft</h3>
+            <span class="font-11 c4">Site de e-commerce</span>
+            <p class="font-9">Site para venda das minhas ilustrações e produtos.</p>
+            <img src="./img/Bikcraft.png" alt="">
+          </div>
+          <a class="botao centro" href="https://github.com/moraismariana/Bikcraft" target="_blank">Ver detalhes</a>
         </div>
-      </li>
-      <li>
-        <div class="bg-c2 habilidades-item centro">
-          <img class="icone" src="./img/lapis.svg" alt="">
-          <h3 class="font-5">Ilustração</h3>
-          <p class="font-9">Pratico ilustração digital desde os 16 anos. Essa habilidade foi essencial para que eu desenvolvesse a criatividade e outras soft skills úteis para o Front-End.</p>
+      </section>
+
+      <section id="contato" class="contato container">
+        <h2 class="font-3 centro esp1">Contato.</h2>
+        <p class="font-7 centro">Vamos conversar sobre os próximos projetos ;)</p>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/morais-mariana/" target="_blank">
+            <img src="./img/linkedin.svg" alt="">
+          </a>
+          <a href=mailto:moraismariana200@gmail.com>
+            <img src="./img/email.svg" alt="">
+          </a>
+          <a href="https://github.com/moraismariana" target="_blank">
+            <img src="./img/github.svg" alt="">
+          </a>
         </div>
-      </li>
-    </ul>
-    <button class="tecnologias botao centro">Entenda as Tecnologias</button>
+      </section>
 
-    <ul class="hab-descricao centro none">
-      <li class="hab-descricao-item item1">
-        <img class="centro" src="./img/html.svg" alt="">
-        <h4 class="font-10 c3">HTML</h4>
-      </li>
-      <li class="hab-descricao-item item2">
-        <img class="centro" src="./img/css.svg" alt="">
-        <h4 class="font-10 c3">CSS</h4>
-      </li>
-      <li class="hab-descricao-item item3">
-        <img class="centro" src="./img/javascript.svg" alt="">
-        <h4 class="font-10 c3">Javascript</h4>
-      </li>
-      <li class="hab-descricao-item item4">
-        <img class="centro" src="./img/c++.svg" alt="">
-        <h4 class="font-10 c3">C++</h4>
-      </li>
-      <li class="hab-descricao-item item5">
-        <img class="centro" src="./img/figma.svg" alt="">
-        <h4 class="font-10 c3">Figma</h4>
-      </li>
-    </ul>
-
-    <ul class="hab-descricao-2 centro none">
-      <li class="font-7 mouse">Passe o mouse por cima dos ícones para ler a descrição.</li>
-      <li>
-        <p class="font-7 texto texto1">HTML é uma linguagem de marcação que permite definir a estrutura básica do site. É através dele, por exemplo, que inserimos textos, imagens e conteúdos.</p>
-      </li>
-      <li>
-        <p class="font-7 texto texto2">CSS é uma linguagem de estilização. Por meio dele que se faz a personalização e padronização do site, de acordo com o design desejado.</p>
-      </li>
-      <li>
-        <p class="font-7 texto texto3">Javascript é uma linguagem de programação de alto nível, voltada para o desenvolvimento web. Ela permite a criação de sistemas complexos e possibilita uma maior interatividade com o usuário.</p>
-      </li>
-      <li>
-        <p class="font-7 texto texto4">C++ é uma linguagem de programação orientada a objeto que também permite a criação de sistemas complexos.</p>
-      </li>
-      <li>
-        <p class="font-7 texto texto5">O Figma é um software de criação gráfica voltado para o desenvolvimento de sites e aplicativos. Através dele é possível visualizar como ficaria o site final, em relação ao design final.</p>
-      </li>
-    </ul>
-  </section>
-
-  <section id="projetos" class="projetos container separador">
-    <h2 class="font-3 centro esp1">Projetos.</h2>
-    <div class="projetos-bikcraft">
-      <div class="projetos-bikcraft-texto">
-        <h3 class="font-4">Bikcraft</h3>
-        <span class="font-11 c4">Site de e-commerce</span>
-        <p class="font-9">Site para venda das minhas ilustrações e produtos.</p>
-        <img src="./img/Bikcraft.png" alt="">
-      </div>
-      <a class="botao centro" href="https://github.com/moraismariana/Bikcraft" target="_blank">Ver detalhes</a>
+      <footer>
+        <p class="font-9 centro">Desenvolvido por Mariana Morais © 2023</p>
+      </footer>
     </div>
-  </section>
-
-  <section id="contato" class="contato container">
-    <h2 class="font-3 centro esp1">Contato.</h2>
-    <p class="font-7 centro">Vamos conversar sobre os próximos projetos ;)</p>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/morais-mariana/" target="_blank">
-        <img src="./img/linkedin.svg" alt="">
-      </a>
-      <a href=mailto:moraismariana200@gmail.com>
-        <img src="./img/email.svg" alt="">
-      </a>
-      <a href="https://github.com/moraismariana" target="_blank">
-        <img src="./img/github.svg" alt="">
-      </a>
-    </div>
-  </section>
-
-  <footer>
-    <p class="font-9 centro">Desenvolvido por Mariana Morais © 2023</p>
-  </footer>
+  </div>
 
   <script src="./js/script.js"></script>
 </body>
