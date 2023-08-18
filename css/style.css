@@ -1,5 +1,6 @@
 /* geral */
 @import "./geral/geral.css";
+@import "./home-page/background.css";
 @import "./geral/tipografia.css";
 @import "./geral/cores.css";
 
@@ -13,4 +14,3 @@
 @import "./home-page/habilidades.css";
 @import "./home-page/projetos.css";
 @import "./home-page/contato.css";
-@import "./home-page/background.css";
