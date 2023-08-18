@@ -25,10 +25,8 @@
   max-width: 40px;
 }
 
-.hab-lista li:nth-child(even) {
-  .habilidades-item .icone {
-    max-width: 44px;
-  }
+.habilidades-item .icone.imgcod {
+  max-width: 44px;
 }
 
 .habilidades-item p {

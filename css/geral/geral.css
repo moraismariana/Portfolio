@@ -53,7 +53,7 @@ img {
   /* font-weight: 700; */
   border: solid 1px var(--cw);
   background-color: var(--cw);
-  transition: 0s;
+  transition: 0.1s;
 }
 
 /* container */
