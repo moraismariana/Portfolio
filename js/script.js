@@ -48,6 +48,3 @@ function ativarBotao() {
 }
 
 botao.addEventListener("click", ativarBotao);
-
-const bodyHeight = document.querySelector("#body");
-console.log(bodyHeight.scrollHeight);

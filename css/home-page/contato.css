@@ -1,6 +1,7 @@
 .contato .links {
   padding-top: 60px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 80px;
@@ -15,4 +16,10 @@
 
 .contato p {
   line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+  .contato .links {
+    gap: 40px 52px;
+  }
 }

@@ -5,6 +5,7 @@
 .habilidades .hab-lista {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -45,6 +46,7 @@
 .hab-descricao {
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   max-width: max-content;
@@ -138,4 +140,14 @@
 .hab-descricao.none,
 .hab-descricao-2.none {
   display: none;
+}
+
+/* medias */
+@media (max-width: 1000px) {
+  .hab-descricao {
+    gap: 40px;
+  }
+  .habilidades .botao {
+    margin-bottom: 60px;
+  }
 }
