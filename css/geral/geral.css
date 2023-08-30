@@ -107,3 +107,18 @@ img {
 .esp1 {
   margin-bottom: 40px;
 }
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0a090e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #252134;
+  border-radius: 0px;
+  border: 2.5px solid #0a090e;
+}
