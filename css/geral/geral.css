@@ -47,13 +47,18 @@ img {
   cursor: pointer;
   transition: 0.3s;
 }
-
 .botao:hover {
   color: #121212;
   /* font-weight: 700; */
   border: solid 1px var(--cw);
   background-color: var(--cw);
   transition: 0.1s;
+}
+@media (max-width: 520px) {
+  .botao {
+    font-size: 0.875rem;
+    line-height: 1.375;
+  }
 }
 
 /* container */

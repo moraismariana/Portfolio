@@ -1,25 +1,6 @@
-/* .projetos-item-1 img {
-  width: 372px;
-  height: 200px;
-  object-fit: cover;
-  object-position: top;
+.projetos {
+  overflow-x: hidden;
 }
-
-.projetos-item-1 {
-  background-color: var(--c2);
-  width: 340px;
- margin-left: auto;
-  margin-right: auto;
-}
-
-.projetos-item-1-texto {
-  margin: 40px;
-}
-
-.projetos-item-1-texto h3 {
-  padding-top: 56px;
-}
-*/
 
 .projetos-bikcraft-texto {
   background-color: var(--c2);
