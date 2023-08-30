@@ -35,7 +35,7 @@ function a() {
 }
 lista.forEach(a);
 
-// tecnologias botao
+// tecnologias -> botao
 const botao = document.querySelector(".tecnologias");
 
 function ativarBotao() {
@@ -48,3 +48,9 @@ function ativarBotao() {
 }
 
 botao.addEventListener("click", ativarBotao);
+
+// texto de habilidades -> tecnologias
+if (screen.width <= 800) {
+  let mouse = document.querySelector(".mouse");
+  mouse.textContent = "Aperte nos ícones para ler a descrição.";
+}
