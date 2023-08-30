@@ -1,19 +1,25 @@
-/* #body {
-  background-image: url("../../img/background.svg");
-  background: var(--c1) url("../../img/background.svg") no-repeat center top
-  fixed;
-  backdrop-filter: blur(120px);
-} */
+body {
+  background: var(--c1) url("../../img/background2.svg") no-repeat center top;
+  /* backdrop-filter: blur(120px); */
+  object-fit: cover;
+  object-position: left top;
+}
 
-.background-container {
+@media (max-width: 600px) {
+  body {
+    background-image: url("../../img/background-mobile.svg");
+    /* backdrop-filter: blur(0px); */
+  }
+}
+
+/* .background-container {
   position: relative;
   height: 0;
 }
 
 .background {
   top: 0px;
-  object-fit: cover;
   z-index: -1;
   filter: blur(120px);
   position: absolute;
-}
+} */
