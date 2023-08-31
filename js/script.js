@@ -54,3 +54,13 @@ if (screen.width <= 800) {
   let mouse = document.querySelector(".mouse");
   mouse.textContent = "Aperte nos ícones para ler a descrição.";
 }
+
+// quebra dos botões
+if (screen.width <= 370) {
+  let bnt = document.querySelector(".tecnologias.botao");
+  bnt.innerHTML = "Entenda as <br> Tecnologias";
+}
+if (screen.width <= 280) {
+  let bnt = document.querySelector("a[href='#contato'].botao");
+  bnt.innerHTML = "Entre em <br> contato";
+}
