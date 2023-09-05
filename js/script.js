@@ -24,7 +24,6 @@ function a() {
       const texto = document.querySelector(".texto" + [i + 1]);
       texto.classList.remove("ativo");
       const mouse = document.querySelector(".mouse");
-      // mouse.classList.remove("desativo");
       const habDescricao = document.querySelector(".hab-descricao");
       habDescricao.classList.add("margin");
     }

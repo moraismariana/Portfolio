@@ -149,3 +149,14 @@
     margin-bottom: 60px;
   }
 }
+
+@media (max-width: 800px) {
+  .hab-descricao-item img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 20px;
+  }
+  .hab-descricao {
+    gap: 12px;
+  }
+}

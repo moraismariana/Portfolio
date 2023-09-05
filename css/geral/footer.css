@@ -9,5 +9,5 @@ footer p::before {
   height: 2px;
   background-color: var(--cw);
   opacity: 25%;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
