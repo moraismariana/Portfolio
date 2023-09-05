@@ -84,6 +84,9 @@
   .intro h2 {
     font-size: 1.125rem;
   }
+  .font-10 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 400px) {

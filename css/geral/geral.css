@@ -1,11 +1,6 @@
 /* reset inicial */
 html {
   scroll-behavior: smooth;
-}
-html.scroll1 {
-  scroll-padding-top: 180px;
-}
-html.scroll2 {
   scroll-padding-top: 40px;
 }
 
